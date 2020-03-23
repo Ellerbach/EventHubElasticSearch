@@ -1,0 +1,34 @@
+[
+  {
+    "trigram": "arc",
+    "application": "Arc application",
+    "layer": "lifetest",
+    "level": "DEBUG",
+    "date": "2020-02-11T17:37:52.0086360Z",
+    "message": "Life Test Requested"
+  },
+  {
+    "trigram": "arc",
+    "application": "Arc application",
+    "layer": "lifetest",
+    "level": "DEBUG",
+    "date": "2020-02-11T17:38:12.0135439Z",
+    "message": "Life Test Requested"
+  },
+  {
+    "trigram": "arc",
+    "application": "Arc application",
+    "layer": "lifetest",
+    "level": "DEBUG",
+    "date": "2020-02-11T17:38:12.0135439Z",
+    "message": "Life Test Requested"
+  },
+  {
+    "trigram": "arc",
+    "application": "Arc application",
+    "layer": "lifetest",
+    "level": "DEBUG",
+    "date": "2020-02-11T17:38:12.2479192Z",
+    "message": "Life Test Requested"
+  }
+]

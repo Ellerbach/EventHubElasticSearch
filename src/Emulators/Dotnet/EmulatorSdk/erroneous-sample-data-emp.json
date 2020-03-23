@@ -1,0 +1,35 @@
+[
+  {
+    "trigram": "4lettertrigram",
+    "application": "Tagada",
+    "layer": "lifetest",
+    "level": "DEBUG",
+    "date": "2020-02-11T17:37:52.0086360Z",
+    "message": "Life Test Requested"
+  },
+  {
+    "trigram": "arc",
+    "application": "Tagada",
+    "layer": "lifetest",
+    "level": "debug",
+    "date": "2020-02-11T17:37:52.0086360Z",
+    "message": "Life Test Requested"
+  },
+  {
+    "trigram": "arc",
+    "application": "Tagada",
+    "layer": "lifetest",
+    "level": "DEBUG",
+    "date": "2020-02-11T17x:38:12.0135439Z",
+    "message": "Life Test Requested"
+  },
+  {
+    "date": "2020-03-02T12:36:12.5909266Z",
+    "Action": "Release",
+    "elapsedInSeconds": 32.093079,
+    "level": "INFO",
+    "OrderIDs": "202003020134431600001, 202003020134431600002",
+    "message": "Action='Release' Tag='End'  ActionID='372552a2-e030-48ed-9d97-2b0544801e47' OrderIDs = '202003020134431600001, 202003020134431600002' OrderCount = '2' ProgramTradeIds = '' Elapsed = '00:00:32.0930790'",
+    "trigram": "oct"
+  }
+]

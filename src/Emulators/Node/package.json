@@ -1,0 +1,14 @@
+{
+  "name": "node-eventhub-emulator",
+  "version": "1.0.0",
+  "description": "Nodejs Emulator app to push sample data to Azure EventHub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "EventHub",
+    "node",
+    "log4js"
+  ]
+}

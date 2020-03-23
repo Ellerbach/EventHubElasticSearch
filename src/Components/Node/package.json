@@ -1,0 +1,34 @@
+{
+  "name": "@jslogger/eventhub-appender",
+  "version": "0.1.1",
+  "description": "Azure EventHub Appender for log4js-node",
+  "homepage": "",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "logging",
+    "log",
+    "log4j",
+    "node",
+    "azure",
+    "eventhub"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "author": "",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "directories": {
+    "test": "test",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@azure/event-hubs": "^2.1.4"
+  },
+  "devDependencies": {
+    "@log4js-node/sandboxed-module": "^2.1.1",
+    "log4js": "^6.1.2"
+  }
+}

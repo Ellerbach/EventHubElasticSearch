@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmulatorDI", "EmulatorDI\EmulatorDI.csproj", "{0D934100-B42E-42B0-806A-650C41BA609A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmulatorSdk", "EmulatorSdk\EmulatorSdk.csproj", "{9200A597-55D5-4687-A803-3F0F6EFDAA76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmulatorNlog", "EmulatorNlog\EmulatorNlog.csproj", "{DD313906-C386-404A-9FBA-ADC5333EBDB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmulatorLog4net", "EmulatorLog4net\EmulatorLog4net.csproj", "{2DACE770-0816-4012-BD24-E6DF0FE9A4BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4net.Eventhub", "..\..\Components\Dotnet\Log4netAppender\Log4net.Eventhub\Log4net.Eventhub.csproj", "{E125928E-E822-49A2-9DDF-A31AE14144CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nlog.Eventhub", "..\..\Components\Dotnet\NlogTarget\Nlog.Eventhub\Nlog.Eventhub.csproj", "{B6792A9B-3241-4AF9-AE70-60E07AD7F636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D934100-B42E-42B0-806A-650C41BA609A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D934100-B42E-42B0-806A-650C41BA609A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D934100-B42E-42B0-806A-650C41BA609A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D934100-B42E-42B0-806A-650C41BA609A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9200A597-55D5-4687-A803-3F0F6EFDAA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9200A597-55D5-4687-A803-3F0F6EFDAA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9200A597-55D5-4687-A803-3F0F6EFDAA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9200A597-55D5-4687-A803-3F0F6EFDAA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD313906-C386-404A-9FBA-ADC5333EBDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD313906-C386-404A-9FBA-ADC5333EBDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD313906-C386-404A-9FBA-ADC5333EBDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD313906-C386-404A-9FBA-ADC5333EBDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DACE770-0816-4012-BD24-E6DF0FE9A4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DACE770-0816-4012-BD24-E6DF0FE9A4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DACE770-0816-4012-BD24-E6DF0FE9A4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DACE770-0816-4012-BD24-E6DF0FE9A4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E125928E-E822-49A2-9DDF-A31AE14144CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E125928E-E822-49A2-9DDF-A31AE14144CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E125928E-E822-49A2-9DDF-A31AE14144CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E125928E-E822-49A2-9DDF-A31AE14144CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6792A9B-3241-4AF9-AE70-60E07AD7F636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6792A9B-3241-4AF9-AE70-60E07AD7F636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6792A9B-3241-4AF9-AE70-60E07AD7F636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6792A9B-3241-4AF9-AE70-60E07AD7F636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF62A11A-2C62-4991-8424-3AA10035AEB2}
+	EndGlobalSection
+EndGlobal

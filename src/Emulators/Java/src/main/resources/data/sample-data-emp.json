@@ -1,0 +1,67 @@
+[
+  {
+    "trigram": "arc",
+    "application": "Axaim.Membership.Service",
+    "layer": "lifetest",
+    "level": "DEBUG",
+    "date": "2020-02-11T17:39:36.9341781Z",
+    "message": "Life Test Requested",
+    "machinename": "FR2AS1WS3-1119",
+    "iis_site_name": "arc302",
+    "aspnet_user_identity": "AXA-IM\\zu_mwp_arc"
+  },
+  {
+    "fileName": "DownloadOpenedTableauPPT",
+    "totalExecutionTime": "00:00:12",
+    "level": "INFO",
+    "robotName": "PIERONNEK",
+    "message": "AXA-IM.Applications.TableauSoftware execution ended",
+    "processVersion": "3.1.1",
+    "layer": "robot",
+    "machineName": "N-710096-PAR",
+    "tags": [
+      "ready_to_index"
+    ],
+    "trigram": "rpa",
+    "jobId": "74c2ff35-1b2d-481b-9ce3-c0503b5658c5",
+    "@timestamp": "2020-03-02T14:09:50.098Z",
+    "application": "UIPath Orchestrator",
+    "windowsIdentity": "AXA-IM\\PIERONNEK",
+    "processName": "AXA-IM.Applications.TableauSoftware",
+    "tenantId": "1",
+    "fingerprint": "ffba55d8-7506-4662-9139-645ee43c5aa7",
+    "totalExecutionTimeInSeconds": 12,
+    "@version": "1",
+    "organizationUnitId": "1",
+    "start_date": "2020-03-02T14:09:38.098Z",
+    "date": "2020-03-02T14:09:38.098Z"
+  },
+  {
+    "date": "2020-03-02T12:36:12.5909266Z",
+    "Action": "Release",
+    "elapsedInSeconds": 32.093079,
+    "level": "INFO",
+    "callsite": "AxaIm.ComplianceApi.Models.ComplianceAction.LogAction",
+    "OrderIDs": "202003020134431600001, 202003020134431600002",
+    "message": "Action='Release' Tag='End'  ActionID='372552a2-e030-48ed-9d97-2b0544801e47' OrderIDs = '202003020134431600001, 202003020134431600002' OrderCount = '2' ProgramTradeIds = '' Elapsed = '00:00:32.0930790'",
+    "aspnet_user_identity": "AXA-IM\\bachf",
+    "layer": "webapi",
+    "url": "/api/v1/basket-orders/d0b656da-d8b0-4ced-842c-6efba0f38ad2",
+    "tags": [
+      "ready_to_index"
+    ],
+    "trigram": "oct",
+    "OrderIDs_tab": [
+      "202003020134431600001",
+      "202003020134431600002"
+    ],
+    "ActionID": "372552a2-e030-48ed-9d97-2b0544801e47",
+    "@timestamp": "2020-03-02T12:36:13.777Z",
+    "application": "AxaIm.ComplianceApi.WebApi",
+    "ProgramTradeIds": "",
+    "@version": "1",
+    "machinename": "FR1AS1WS1-0004",
+    "OrderCount": 2,
+    "Tag": "End"
+  }
+]

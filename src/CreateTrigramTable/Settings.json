@@ -1,0 +1,5 @@
+{
+    "StorageConnectionString": "<POINT_TO_THE_STG_ACCOUNT_CONN_STRING>",
+    "TrigramCSVFile": "<FILE_PATH>\\Trigrams.csv",
+    "TrigramTableName": "emptrigram"
+  }

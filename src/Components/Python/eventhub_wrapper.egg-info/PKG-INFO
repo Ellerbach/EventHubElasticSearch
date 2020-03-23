@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: eventhub-wrapper
+Version: 0.1
+Summary: The eventhub wrapper to publish messges sync or async
+Home-page: https://github.com/asedighi/eventhub-python
+Author: Art Sedighi
+Author-email: asedighi@microsoft.com
+License: MIT
+Download-URL: https://github.com/asedighi/eventhub-python/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: azure,eventshub,python,wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7

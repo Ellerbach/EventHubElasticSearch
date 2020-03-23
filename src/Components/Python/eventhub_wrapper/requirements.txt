@@ -1,0 +1,3 @@
+azure
+azure-eventhub==5.0.0
+asyncio
