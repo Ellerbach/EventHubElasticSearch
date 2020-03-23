@@ -10,5 +10,9 @@
     "EventHub",
     "node",
     "log4js"
-  ]
+  ],
+  "dependencies": {
+    "log4js": "^6.1.2",
+    "@jslogger/eventhub-appender": "file:../../Components/Node/"
+  }
 }
