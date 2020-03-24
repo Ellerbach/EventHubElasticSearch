@@ -11,17 +11,19 @@ function log4jsEventHubAppender(config) {
     config.eventHubsName
   );
 
-  return function log(event) {
+  return async function log(event) {
     const date = new Date();
 
-    event.data.trigram = config.trigram;
-    event.data.application = config.application;
-    event.data.layer = config.layer;
-    event.data.date = date.toISOString();
+    event.message = event.data[0];
+    event.trigram = config.trigram;
+    event.application = config.application;
+    event.layer = config.layer;
+    event.date = date.toISOString();
+
     //
     // send to server
     //
-    sender.send(event.data).catch(error => {
+    await sender.send(event).catch(error => {
       if (error.response) {
         console.error(
           `log4js.eventhub Appender error posting to ${config.url}: ${error.response.status} - ${error.response.data}`
@@ -30,6 +32,8 @@ function log4jsEventHubAppender(config) {
       }
       console.error(`log4js.eventhub Appender error: ${error.message}`);
     });
+
+    await sender.close();
   };
 }
 
