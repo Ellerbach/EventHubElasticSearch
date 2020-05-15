@@ -1,8 +1,8 @@
 # Elastic Search ingestion thru Event Hubs and Azure functions with Teams channel notification
 
-This project implements a typical architecture ingesting data thru Event Hub, transforming and validating the data into Azure Functions and posting them to an Azure Elastic Cluster. This architecture is coming from a real project for one of our largest insurance company in the world. The core idea was to replace existing Logstash, Kafka in on premise VM into a full Platform and Sorftware as a Service architecture.
+This project implements a typical architecture ingesting data thru Event Hub, transforming and validating the data into Azure Functions and posting them to an Azure Elastic Cluster. This architecture is coming from a real project for Axa Investment Managers. The core idea was to replace existing Logstash, Kafka in on premise VM into a full Platform and Sorftware as a Service architecture.
 
-The code present in this repository is a simplified version of the full project. All the Infrastructure as Code elements, all the built elements has been fully removed as they were specific to this customer. Note that Azure Dev Ops (ADO) has been used as the platform to manage the infrastructure creation as well as the update for the components, emulators and Azure function.
+The code present in this repository is a simplified version of the full project. All the Infrastructure as Code elements, all the built elements has been fully removed as they were specific to Axa Investment Managers. Note that Azure Dev Ops (ADO) has been used as the platform to manage the infrastructure creation as well as the update for the components, emulators and Azure function.
 
 ADO allows to build, test and publish as reusable artifact the various components. They were directly referenced in the Emulators. In this project, the project reference is used. We do recommend to put in place a similar system so your developers will always have an up to date version of the logger.
 
